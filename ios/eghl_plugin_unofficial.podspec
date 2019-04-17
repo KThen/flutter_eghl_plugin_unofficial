@@ -17,5 +17,8 @@ eGHL payment plugin. Unofficial version. Please use the official version.
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
+
+  s.resource = 'eghl-sdk/guidehandicon.png'
+  s.ios .vendored_libraries = 'eghl-sdk/libEGHLPayment.a'
 end
 
