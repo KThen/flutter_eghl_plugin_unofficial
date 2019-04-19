@@ -1,8 +1,8 @@
 name: eghl_plugin_unofficial
 description: eGHL payment plugin. Unofficial version. Please use the official version.
 version: 0.0.1
-author:
-homepage:
+author: Dino Saw <dinosts.official@gmail.com>
+homepage: https://github.com/KThen/flutter_eghl_plugin_unofficial
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
