@@ -10,9 +10,4 @@ class EghlPluginUnofficial {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
-
-  static Future<String> makePayment(Map<String, String> params) async {
-    final String result = await _channel.invokeMethod('makePayment', params);
-    return result;
-  }
 }

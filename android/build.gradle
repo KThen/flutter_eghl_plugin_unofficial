@@ -1,5 +1,5 @@
-group 'me.kthen.eghlpluginunofficial'
-version '1.0-SNAPSHOT'
+group 'me.kthen.eghl_plugin_unofficial'
+version '1.0'
 
 buildscript {
     repositories {
@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.5.3'
     }
 }
 
@@ -22,11 +22,11 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 17
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion 19
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -34,8 +34,8 @@ android {
 }
 
 dependencies {
-    implementation files('./eghl-sdk/eghl-sdk-v2.3.4.aar')
-    implementation 'com.android.support:design:27.1.0'
-    implementation 'com.google.code.gson:gson:2.8.0'
-    implementation 'com.android.volley:volley:1.1.0'
+    implementation files('eghl-sdk/eghl-sdk-v2.5.0.aar')
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
 }

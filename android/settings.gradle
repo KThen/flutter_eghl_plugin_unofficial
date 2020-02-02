@@ -1,2 +1,1 @@
 rootProject.name = 'eghl_plugin_unofficial'
-include ':eghl-sdk'
