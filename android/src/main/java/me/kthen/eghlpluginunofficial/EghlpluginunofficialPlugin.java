@@ -30,12 +30,12 @@ public class EghlpluginunofficialPlugin implements FlutterPlugin, MethodCallHand
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "eghlpluginunofficial");
+        channel = new MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "eghl_plugin_unofficial");
         channel.setMethodCallHandler(this);
     }
 
     public static void registerWith(Registrar registrar) {
-        final MethodChannel channel = new MethodChannel(registrar.messenger(), "eghlpluginunofficial");
+        final MethodChannel channel = new MethodChannel(registrar.messenger(), "eghl_plugin_unofficial");
 
         EghlpluginunofficialPlugin plugin = new EghlpluginunofficialPlugin();
         plugin.setActivity(registrar.activity());

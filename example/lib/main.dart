@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:eghlpluginunofficial/eghlpluginunofficial.dart';
+import 'package:eghl_plugin_unofficial/eghl_plugin_unofficial.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

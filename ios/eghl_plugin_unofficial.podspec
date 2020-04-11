@@ -3,15 +3,15 @@
 # Run `pod lib lint eghlpluginunofficial.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'eghlpluginunofficial'
-  s.version          = '0.0.1'
+  s.name             = 'eghl_plugin_unofficial'
+  s.version          = '1.0.0'
   s.summary          = 'eGHL payment plugin. Unofficial version. Please use the official version.'
   s.description      = <<-DESC
 eGHL payment plugin. Unofficial version. Please use the official version.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/KThen/flutter_eghl_plugin_unofficial'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'KThen' => 'dinosts.official@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

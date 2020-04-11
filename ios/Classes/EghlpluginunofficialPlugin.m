@@ -5,7 +5,7 @@
 @implementation EghlpluginunofficialPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
-                                     methodChannelWithName:@"eghlpluginunofficial"
+                                     methodChannelWithName:@"eghl_plugin_unofficial"
                                      binaryMessenger:[registrar messenger]];
     EghlpluginunofficialPlugin* instance = [[EghlpluginunofficialPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];

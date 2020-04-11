@@ -7,7 +7,7 @@ import 'package:intl/intl.dart';
 
 class Eghlpluginunofficial {
   static const MethodChannel _channel =
-      const MethodChannel('eghlpluginunofficial');
+      const MethodChannel('eghl_plugin_unofficial');
 
   static Future<String> makePayment({
     @required String serviceId,

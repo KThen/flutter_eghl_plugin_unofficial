@@ -1,22 +1,22 @@
 PODS:
-  - eghlpluginunofficial (0.0.1):
+  - eghl_plugin_unofficial (1.0.0):
     - Flutter
   - Flutter (1.0.0)
 
 DEPENDENCIES:
-  - eghlpluginunofficial (from `.symlinks/plugins/eghlpluginunofficial/ios`)
+  - eghl_plugin_unofficial (from `.symlinks/plugins/eghl_plugin_unofficial/ios`)
   - Flutter (from `Flutter`)
 
 EXTERNAL SOURCES:
-  eghlpluginunofficial:
-    :path: ".symlinks/plugins/eghlpluginunofficial/ios"
+  eghl_plugin_unofficial:
+    :path: ".symlinks/plugins/eghl_plugin_unofficial/ios"
   Flutter:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  eghlpluginunofficial: 3bbeb4309ec2a98a8eb8a45f9edf8ed794644d16
+  eghl_plugin_unofficial: c9d040d2573e7b5cde592bbfe305cdfe03e91471
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
 
-PODFILE CHECKSUM: f32fb4e7c14f8b3ca19a369d7be425dd9241af27
+PODFILE CHECKSUM: 66ec897aeb6facccce461c8fe577516841b1dda8
 
 COCOAPODS: 1.8.4
