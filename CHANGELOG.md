@@ -1,3 +1,7 @@
+## 1.0.1
+
+* Fix an issue with android volley library not found.
+
 ## 1.0.0
 
 * Upgraded to use eGHL iOS SDK v2.2.

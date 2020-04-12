@@ -39,13 +39,14 @@ Note that during the writing down of these steps, they are done on `MacOS`. Step
 2. Right click on the `android [eghlpluginunofficial_android]` folder and select `New > Directory`. It will prompt for a name `Enter new directory name:`. Name it `eghl-sdk` then click `OK`.
 3. Copy the modified `eghl-sdk-v2.5.2-X.aar` library file that we prepared earlier and paste it into this `eghl-sdk` folder. It will show a prompt for changing the name, don't change the name and just click `OK`.
 4. Under this directory `android [eghlpluginunofficial_android]` we should also see a `build.gradle` file. Double click to open it.
-5. At the very very bottom of this `build.gradle` file, add the following code after the `android { }` block closing brace. Please note that the library and the version for `appcompat` and `design` may have new versions released, try to adjust it as you see fit.
+5. At the very very bottom of this `build.gradle` file, add the following code after the `android { }` block closing brace. Please note that the library and the version for `appcompat`, `design` and `volley` may have new versions released, try to adjust it as you see fit.
 
         dependencies {
           implementation files('eghl-sdk/eghl-sdk-v2.5.2-X.aar')
 
           implementation 'com.android.support:appcompat-v7:28.0.0'
           implementation 'com.android.support:design:28.0.0'
+          implementation 'com.android.volley:volley:1.1.0'   
         }
 6. In the `android { }` block on top change
 
