@@ -1,3 +1,7 @@
+## 1.0.4
+
+* Attempt to fix EGHL bundle resources not loaded when using plugin.
+
 ## 1.0.3
 
 * Attempt to fix EGHL bundle resources not loaded when using plugin.
