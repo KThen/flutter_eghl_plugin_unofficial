@@ -24,5 +24,5 @@ eGHL payment plugin. Unofficial version. Please use the official version.
   s.preserve_paths = ['EGHL.framework', 'EGHL.bundle']
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework EGHL' }
   s.vendored_frameworks = 'EGHL.framework'
-  s.resources = 'EGHL.bundle'
+  s.resource = 'EGHL.bundle'
 end
