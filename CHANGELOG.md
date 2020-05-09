@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Attempt to fix EGHL bundle resources not loaded when using plugin.
+
 ## 1.0.1
 
 * Fix an issue with android volley library not found.
