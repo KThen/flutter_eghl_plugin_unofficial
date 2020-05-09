@@ -21,7 +21,7 @@ eGHL payment plugin. Unofficial version. Please use the official version.
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
 
-  s.preserve_paths = ['EGHL.framework', 'EGHL.bundle']
+  s.preserve_paths = 'EGHL.framework'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework EGHL' }
   s.vendored_frameworks = 'EGHL.framework'
   s.resource = 'EGHL.bundle'
