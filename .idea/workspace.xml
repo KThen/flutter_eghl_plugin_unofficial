@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1767adec-1acf-4893-bdb9-c18eee52a1fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_back@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_back@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_back@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_back@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_next@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_next@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_next@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_next@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_back.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_back@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_back@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_back@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_next.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/EGHL.bundle/egh_navigation_item_next.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_next@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/EGHL.bundle/eghl_navigation_item_next@3x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/eghl_plugin_unofficial.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/eghl_plugin_unofficial.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
